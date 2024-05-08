@@ -1,71 +1,42 @@
-<p align="center">
-  <img src="assets/gh-banner.png" alt="Odyssey Theme Banner">
-</p>
+# Empty Website Template - README
+First of all I would like to give a huge shoutout to **[w3schools.com](https://www.w3schools.com/)**!\
+I recommend you check it out and recommend its use as informational source for all your website development needs.
 
-<br/>
-<div align="center">
-  <a href="https://twitter.com/jaydanurwin">
-  <img src="assets/twitter-badge.svg" alt="Follow Little Sticks on Twitter"/>
-</a>
-  <a href="https://sapling.lemonsqueezy.com/checkout/buy/9b78751f-6382-442d-ac99-32c2318b70a0">
-    <img src="assets/sponsor-badge.svg" alt="Sponsor This Repo" />
-  </a>
-</div>
-<br/>
+#### Index:
+-	How-To
+-	Template contents
+-	SEO
+-	Legal
 
-# Odyssey Theme
+#### How-To
+The intended usage would be to press Ctrl+F and search for UPDATE_FOR_USE.\
+Adjust this text according to whatever applies for your website and preferences.\
+The current indentation and markup is the one I personally use, so you *can* differ from it.\
+For me, however, it retains an extremely clear organization throughout the designing process.
 
-Odyssey Theme is a modern theme/starter for a business or startup's marketing website. It provides landing page examples, a full-featured blog, contact forms, and more. It is fully themeable to match your business' branding and style. It even includes a theme switcher component to show how easily the entire style of the site can be changed with only a few lines of CSS.
+#### Template contents
+This startup template pack, or whatever you'd like to call it, comes with a structured, empty HTML page template. *(template.html)*\
+This same template is also provided with comments/suggestions at almost every part of the template. *(template-comments.html)*\
+There's some files with an explanation to a specific part, these are the .md files. *(BASETARGET, LANGUAGES and this one, README)*\
+Other than that, there's a folder structure *(./css/ and ./img/)* basic pages, with only the correct navigation links *(index.html, news.html, contact.html and about.html)* and a css file with the bare minimum. *(./css/default.css)*\
+Lastly, there's a robots.txt, about which you'll read more at the SEO part.
 
-## Features
+#### Search Engine Optimization (SEO)
+**sitemap:** You can find a guide to sitemapping **[here](https://support.google.com/webmasters/answer/183668)**.\
+**minification:** Apply minification to all CSS & JS files, which is easy with **[this tool](https://www.minifier.org/)**.\
+**robots.txt** One has been included, but the current file is set to allow all web robots.\
+Please visit **[this](http://www.robotstxt.org/robotstxt.html)** website if you wish to change the robots.txt file to your preferences.\
+**alt attribute:** Always add alt="example" to images.\
+**meta attributes:** There's some guidelines to perfecting your meta attributes, which I won't go into now.\
+As long as you include all of them, you're already ahead of most websites.\
+**caching:** Could write a lot here, but I'll just provide you with **[this tool](https://sourceforge.net/projects/quickcache/).**\
+**image expires:** Documentation on this can be found **[here](http://jeremy.zawodny.com/blog/archives/009272.html).**\
+**Google Analytics:** Register an account **[here](https://analytics.google.com/analytics/web/)** and add your id in the script that's in your index.html.
 
-<p align="center">
-  <img src="assets/lh-screenshot.png" alt="Screenshot of perfect score in Lighthouse benchmark">
-</p>
-
-
-- ✅ **A perfect score in Lighthouse**
-- ✅ **Blazing fast performance thanks to Astro 🚀**
-- ✅ **A Full Featured Blog with Tagging**
-- ✅ **Fully theme-able styles with for buttons, shapes, backgrounds, surfaces, etc.**
-- ✅ **Responsive, mobile-friendly landing pages**
-- ✅ **SEO Best Practices (Open Graph, Canonical URLs, sitemap)**
-- ✅ **Performant Local Fonts Setup**
-- ✅ **Contact Forms Setup for Netlify, Formspree, Formspark, etc.**
-- ✅ **A package of ready-to-use UI components**
-
-
-## Demo
-
-View a [live demo](https://odyssey-theme.sapling.supply/) of the Odyssey Theme.
-
-## Documentation
-
-1. View the [Theme Setup Guide](https://odyssey-theme.sapling.supply/theme/theme-setup)
-2. View the [Customizing the Theme Guide](https://odyssey-theme.sapling.supply/theme/customizing-odyssey)
-
-## Usage
-
-```bash
-cd theme
-
-npm install
-
-npm start
+#### Legal
+No copyright whatsoever. Free to use, copy, share, edit or even steal, if that'd make you feel good.\
+I would really appreciate it nonetheless if below the entire page, you could add this:
+```html
+<!-- Thanks DeveloPerry for providing a well-structured startup template. -->
 ```
-
-## Deploy
-
-Feel free to deploy and host your site on your favorite static hosting service such as Netlify, Firebase Hosting, Vercel, GitHub Pages, etc.
-
-Astro has [an in-depth guide](https://docs.astro.build/en/guides/deploy/) on how to deploy an Astro project to each service.
-
-## Sponsor
-
-If you find this theme useful, please consider donating to support the continued development of it with the link below
-
-[Donate to Odyssey Theme](https://sapling.lemonsqueezy.com/checkout/buy/9b78751f-6382-442d-ac99-32c2318b70a0)
-
-## Support
-
-Please feel free to post issues or submit PRs to this repo and we will do our best to respond in a timely manner, keeping in mind this template is offered for free as is on GitHub.
+That'd be all.
